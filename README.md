@@ -65,7 +65,7 @@ If you prefer to use a pre-built Docker image, you can pull the image from Docke
 
 1. Pull the Docker image:
    ```sh
-   docker pull theinfamoustoto/quiz-site
+   docker pull satrawi/quiz-site
    ```
 
 2. Create a `docker-compose.yml` file with the following content:
@@ -73,7 +73,7 @@ If you prefer to use a pre-built Docker image, you can pull the image from Docke
    version: '3'
    services:
      quiz-site:
-       image: theinfamoustoto/quiz-site
+       image: theinfamous/quiz-site
        ports:
          - "8080:80"
    ```
@@ -99,7 +99,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 
 ## Contact
 
-For any questions or support, please open an issue on the GitHub repository or contact the maintainer on Discord at `theinfamoustoto`.
+For any questions or support, please open an issue on the GitHub repository or contact the maintainer on Discord at `satrawi-h`.
 
 Thank you for using the Nginx Quiz Site!
 
