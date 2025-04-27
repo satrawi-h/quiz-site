@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Site</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="score-display">Score: 0</div> <button id="home-button">Home</button>
+    <div id="quiz-container">
+        <h1>Quiz Time!</h1>
+        <label for="file-input" class="custom-file-upload">Choose JSON File</label>
+        <input type="file" id="file-input" accept=".json">
+        <div id="question-container"></div>
+        <button id="submit" style="display:none;">Submit Quiz</button>
+        <div id="result" style="display:none;"></div>
+        <button id="retry-wrong" style="display: none;">Retry Wrong Answers</button>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
